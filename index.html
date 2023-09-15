@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <title>Todo-App</title>
+  </head>
+  <body>
+    <div id="app">
+      <div class="container">
+        <h1>Todo-App</h1>
+        <form id="myForm">
+          <input id="title" type="text" placeholder="Title" required />
+          <textarea
+          required
+            id="description"
+            cols="30"
+            rows="10"
+            placeholder="description"
+          ></textarea>
+          <button class="submitBtn" type="submit">Add</button>
+        </form>
+        <div class="todo">
+       
+
+        </div>
+      </div>
+    </div>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,84 @@
+:root {
+  font-family: sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+
+}
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body,html{
+  background-color: bisque;
+}
+.container h1{
+  text-align: center;
+}
+.container{
+  min-height: 100vh;
+  width: 50%;
+  margin: auto;
+}
+.container form{
+
+  gap: 12px;
+  display: flex;
+  flex-direction: column;
+
+}
+.container form input{
+  font-size: 1.2rem;
+}
+.container form textarea{
+  font-size: 1.2rem;
+}
+.container form button{
+  background-color: rgb(210, 55, 210);
+  border: none;
+  border-radius: 12px;
+  font-size: 1.2rem;
+}
+
+
+.todoContainer{
+  padding: 0px 12px;
+ 
+
+  background-color:#D0BFFF;
+  margin-top: 12px;
+  gap: 12px;
+  display: flex;
+  justify-content: space-between;
+  
+}
+.todoContainer label{
+  margin: auto;
+}
+.todoContainer button{
+  cursor: pointer;
+  background-color: red;
+  color: white;
+  border: none;
+  font-size: 1.2rem;
+height: 1.5rem;
+margin: auto;
+}
+.todoList{
+  width: 80%;
+
+}
+
+.todoList h2{
+  text-align: center;
+  text-transform: capitalize;
+}
+textarea{padding: 12px;}
+.todoList p{
+  text-align: center;
+
+}
+.textCut{
+  text-decoration: line-through;
+}
